@@ -1,3 +1,5 @@
+# NOTE This must be run in the same directory with the UE-Attach-Request-CLI.py and the UE-Attach-Request.pcap to replay for the attack chain to work
+# PCAP provided to the script must be captured in the environment used.
 import time
 import subprocess
 from scapy.all import *
